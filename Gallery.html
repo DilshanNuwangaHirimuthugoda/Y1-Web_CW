@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Gallery</title>
+            <!-- Navigation bar style sheet -->
+      <link rel="stylesheet" href="nav_bar_styles.css">
+      <link rel="stylesheet" href="Gallery.css">
+    </head>
+
+    <body>
+        <nav class="navigation">
+            <div class="logo-container">
+              <!-- link home page -->
+              <a href="home-page.html">
+              <img class="logo" src="images/logo.png">
+              </a>
+            </div>
+            <div class="title-container">
+              <!-- menu icon -->
+              <div class="menu-icon" onclick="toggleMenu()" >&#9776;</div>
+              <h1 id="topic">Life Below Water</h1>
+                
+              <!-- navigation menu -->
+                <ul class="list" id="list">
+                    <li id="homeNav"><a href="#">Home</a></li>
+                    <li id="galleryNav"><a href="#" class="active">Gallery</a></li>
+                    <li id="shopNav"><a href="#">Shop</a></li>
+                    <li id="siteNav"><a href="Sitemap.html">Sitemap</a></li>
+                    <li id="aboutUsNav"><a href="#">About Us</a></li>
+                    <li id="feedbackNav"><a href="#">Feedback</a></li>
+                </ul>    
+            </div>
+  
+            <!-- search bar -->
+            <form id="search-container" class="search-container">
+                    <input type="text" placeholder="Search here..">
+                    <button type="reset" onclick="reset_txt()" ><img  src="images/search.png"></button>
+            </form>
+  
+
+            <!-- user profile icon -->
+            <div class="profile">
+                <a href="#">
+                <img class="user" id="userIcon" src="images/user.png" alt="User">
+                </a>
+            </div>
+        </nav>
+         
+        <!-- Inside this div enter your content -->
+        <div class="page">
+            <h1>WEB GALLERY</h1>
+<h2>Life Below Under Water</h2>
+<br>
+    
+
+
+    </body>
+</html>
